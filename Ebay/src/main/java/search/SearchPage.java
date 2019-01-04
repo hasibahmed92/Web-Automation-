@@ -17,9 +17,12 @@ public class SearchPage extends CommonAPI {
         clickCSS("#gh-ug > a");
         typeCSS("#userid","hasib123");
         typeOnCss("#pass","abcd1234");
-
-
-
+    }
+    public void toys () {
+        clickCSS("#mainContent > div.hl-cat-nav > ul > li:nth-child(9) > a");
+        navigateBack();
+        clickCSS("#mainContent > div.hl-cat-nav > ul > li:nth-child(9) > a");
+        navigateBack();
     }
 
 }

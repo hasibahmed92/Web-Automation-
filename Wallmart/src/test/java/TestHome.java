@@ -8,11 +8,15 @@ public class TestHome extends SearchPage {
         searchMenu();
     }
     @Test
-    public void test2() {
-        signIn();
+    public void test2(){
+        choosePasta();
     }
     @Test
-    public void test3() {
-        toys();
+    public void test3(){
+        createAccount();
+    }
+    @Test
+    public void test4(){
+        xbox();
     }
 }

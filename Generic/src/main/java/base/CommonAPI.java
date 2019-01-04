@@ -41,11 +41,12 @@ public class CommonAPI {
         driver.findElement(By.cssSelector(locator)).click();
     }
 
-
     public void clickId (String id) {
+
         driver.findElement(By.id(id)).click();
     }
     public void typeOnID(String locator, String value){
+
         driver.findElement(By.id(locator)).sendKeys(value);
     }
     public void typeOnElement(String locator, String value){
