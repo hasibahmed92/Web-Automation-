@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="CNN News" parallel="false">
+
+
+    <parameter name="OS" value="Mac"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="browserVersion" value="71.0.3578.98"/>
+    <parameter name="url" value="https://www.cnn.com/"/>
+
+
+    <test name = "CNN Search">
+        <classes>
+            <class name="SearchTest.SearchTest"/>
+        </classes>
+    </test>
+
+
+</suite>
