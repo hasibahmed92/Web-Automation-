@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Amex FinanceAndBanking" parallel="false">
+
+
+    <parameter name="os" value="Windows 10"/>
+    <parameter name="browser" value="firefox"/>
+    <parameter name="browserVersion" value="64.0"/>
+   <parameter name="url" value="https://www.americanexpress.com/"/>
+
+
+    <test name = "Amex Search">
+        <classes>
+            <class name="searchTest.SearchTest"/>
+        </classes>
+    </test>
+
+
+</suite>
