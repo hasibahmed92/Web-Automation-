@@ -4,9 +4,9 @@
 <suite name="CNN News" parallel="false">
 
 
-    <parameter name="OS" value="Mac"/>
-    <parameter name="browser" value="chrome"/>
-    <parameter name="browserVersion" value="71.0.3578.98"/>
+    <parameter name="OS" value="macOS High Sierra"/>
+    <parameter name="browser" value="firefox"/>
+    <parameter name="browserVersion" value="64.0"/>
     <parameter name="url" value="https://www.cnn.com/"/>
 
 
